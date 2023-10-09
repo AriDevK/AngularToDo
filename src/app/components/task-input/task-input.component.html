@@ -1,0 +1,42 @@
+<mat-form-field>
+  <mat-label>Title</mat-label>
+  <input matInput id="task-title" placeholder="Ex. Buy Milk" name="task-name" [(ngModel)]="task.title" >
+</mat-form-field>
+
+<mat-form-field class="example-full-width">
+  <mat-label>Description</mat-label>
+  <textarea matInput placeholder="Ex. Vegan plz" name="task-description" [(ngModel)]="task.description"></textarea>
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label>Priority</mat-label>
+  <select matNativeControl name="task-priority" [(ngModel)]="task.priority" required>
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+  </select>
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label>Choose a date</mat-label>
+  <input matInput [matDatepicker]="picker" id="task-date" name="task-date" [(ngModel)]="task.date">
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+<div class="row">
+  <div class="col">
+    <button mat-raised-button color="primary" type="button" (click)="addTask()">
+      <mat-icon>add_circle</mat-icon>
+      Add task
+    </button>
+  </div>
+  <div class="col">
+    <button mat-raised-button color="warn" type="button" (click)="clearTask()">
+      <mat-icon>clear</mat-icon>
+      Clear task
+    </button>
+  </div>
+</div>
+
+

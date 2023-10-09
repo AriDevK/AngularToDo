@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>
+  Are you sure want to delete this task?
+  <mat-divider></mat-divider>
+</h2>
+<mat-dialog-content>
+  <p>
+    This will delete this task that is currently on this page and cannot be undone.
+  </p>
+  <p id="task-info">
+    {{ this.data.title }} - {{ this.data.description }}
+  </p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="false">Cancel</button>
+  <button mat-button color="warn" [mat-dialog-close]="true">Delete</button>
+</mat-dialog-actions>
