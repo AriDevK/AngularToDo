@@ -1,7 +1,7 @@
 # ✨ Task Manager - To Do List ✨
 A clone web application of the Linktree profile page, developed in order to stop using Linktree page and add it to my own domain web page https://aridev.me/projects/todo
 
-<img align="center" src= "" width="1000px"/> 
+<img align="center" src="https://github.com/AriDevK/AngularToDo/blob/main/screenshots/preview.gif" width="1000px"/> 
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
@@ -68,4 +68,6 @@ On this project I practice things like:
 <br>
 
 ## 📷 Screenshots
-<img width= "485" src= ""/>
+<img width= "485" src= "https://github.com/AriDevK/AngularToDo/blob/main/screenshots/full.jpeg"/>
+<img width= "485" src= "https://github.com/AriDevK/AngularToDo/blob/main/screenshots/delete.jpeg"/>
+
