@@ -1,5 +1,5 @@
 # ✨ Task Manager - To Do List ✨
-A clone web application of the Linktree profile page, developed in order to stop using Linktree page and add it to my own domain web page https://aridev.me/projects/todo
+A simple to do application, with local service state made in angular 
 
 <img align="center" src="https://github.com/AriDevK/AngularToDo/blob/main/screenshots/preview.gif" width="1000px"/> 
 
